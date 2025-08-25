@@ -549,8 +549,8 @@ const OceanovaWeatherSystem = () => {
             </div>
           </div>
         </div>
-
-        {/* Forecast Charts */}
+        
+        Forecast Charts
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
           {/* Weather Forecast Chart */}
           <div className={`backdrop-blur-md rounded-2xl p-6 shadow-lg ${theme === 'dark' ? 'bg-gray-800/60' : 'bg-white/60'}`}>
@@ -646,7 +646,8 @@ const OceanovaWeatherSystem = () => {
               </AreaChart>
             </ResponsiveContainer>
           </div>
-        </div>
+        </div>  
+        
 
         {/* Recommendations and Detailed Forecast */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
